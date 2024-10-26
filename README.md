@@ -1,4 +1,7 @@
-# Docker и Docker Compose
+# Toxic гайдыч на Docker и Docker Compose
+
+![image](https://github.com/user-attachments/assets/100935a5-561f-4dcb-a0e7-abac54091a87)
+
 
 * Клонирование репозитория Grafana Stack для Docker с GitHub # https://github.com/skl256/grafana_stack_for_docker.git
 
@@ -53,6 +56,11 @@ curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-comp
 sudo chmod +x /usr/bin/docker-compose # Предоставление прав на выполнение файла docker-compose.
 
 ![image](https://github.com/user-attachments/assets/c0f9a65e-4833-4f2d-9ac9-7409a7192311)
+
+docker-compose --version
+
+![image](https://github.com/user-attachments/assets/db2a76ad-c8d7-486f-a4b6-7c0264bdd94b)
+
 
 
 
