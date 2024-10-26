@@ -30,4 +30,33 @@
 
  ![image](https://github.com/user-attachments/assets/8f9e73d9-a4cf-40cd-a4b0-197cc745f892)
 
+ cp config/* /mnt/common_volume/swarm/grafana/config/ # Копирование всех файлов из локальной директории config в созданный каталог конфигурации.
+
+![image](https://github.com/user-attachments/assets/74ac2ce7-7c9b-4dda-a620-026cf80d262d)
+
+mv grafana.yaml docker-compose.yaml # Переименование файла grafana.yaml в docker-compose.yaml, который используется для запуска контейнеров Docker через Docker Compose.
+
+![image](https://github.com/user-attachments/assets/6f2b687b-c808-4b4c-b10a-febd78ae6a26)
+
+yum install cur # Установка утилиты curl (на CentOS/RHEL) для выполнения HTTP-запросов.
+
+![image](https://github.com/user-attachments/assets/4846fb50-2e40-4a7a-b86b-11dd091bf965)
+
+COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) # Использование команды curl для получения последней версии Docker Compose с GitHub API. Фильтрация ответа для извлечения тега с версией.
+
+![image](https://github.com/user-attachments/assets/6b806cac-3fa7-4489-815c-14ce1b839abd)
+
+curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose # Загрузка последней версии Docker Compose с официального репозитория GitHub и сохранение её в /usr/bin/docker-compose.
+
+![image](https://github.com/user-attachments/assets/8f6810b1-c165-4e7d-a2de-24cdeb1bfe87)
+
+sudo chmod +x /usr/bin/docker-compose # Предоставление прав на выполнение файла docker-compose.
+
+![image](https://github.com/user-attachments/assets/c0f9a65e-4833-4f2d-9ac9-7409a7192311)
+
+
+
+
+ 
+
 
