@@ -26,3 +26,5 @@
 
 ![image](https://github.com/user-attachments/assets/4c297ea4-2eeb-4a1c-b1ca-00191a28483f)
 
+* cp config/* /mnt/common_volume/swarm/grafana/config/ # Копирование всех файлов из локальной директории config в созданный каталог конфигурации.
+
