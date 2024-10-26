@@ -41,7 +41,7 @@ mv grafana.yaml docker-compose.yaml # Переименование файла gr
 
 ![image](https://github.com/user-attachments/assets/6f2b687b-c808-4b4c-b10a-febd78ae6a26)
 
-yum install cur # Установка утилиты curl (на CentOS/RHEL) для выполнения HTTP-запросов.
+yum install curl # Установка утилиты curl (на CentOS/RHEL) для выполнения HTTP-запросов.
 
 ![image](https://github.com/user-attachments/assets/4846fb50-2e40-4a7a-b86b-11dd091bf965)
 
