@@ -61,7 +61,7 @@ sudo systemctl enable docker --now
 
 ![image](https://github.com/user-attachments/assets/6b806cac-3fa7-4489-815c-14ce1b839abd)
 
-    curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose # Загрузка последней версии Docker Compose с официального репозитория GitHub и сохранение её в /usr/bin/docker-compose.
+    sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose # Загрузка последней версии Docker Compose с официального репозитория GitHub и сохранение её в /usr/bin/docker-compose.
 
 ![image](https://github.com/user-attachments/assets/8f6810b1-c165-4e7d-a2de-24cdeb1bfe87)
 
