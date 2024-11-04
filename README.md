@@ -8,8 +8,6 @@
 * копируем команды
 
       git clone https://github.com/skl256/grafana_stack_for_docker.git # Клонирование репозитория Grafana Stack для Docker с GitHub.
-  
-      cd grafana_stack_for_docker # Переход в каталог, куда был склонирован репозиторий.
 
 ![image](https://github.com/user-attachments/assets/6747b311-4286-46c3-b546-83b08e5b6c7a)
 
