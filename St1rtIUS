@@ -69,7 +69,7 @@ sudo systemctl enable docker --now
 
 * Установка утилиты curl (на CentOS/RHEL) для выполнения HTTP-запросов.
 
-      yum install curl 
+      sudo yum install curl 
 
 ![image](https://github.com/user-attachments/assets/4846fb50-2e40-4a7a-b86b-11dd091bf965)\
 
