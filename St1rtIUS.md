@@ -60,11 +60,16 @@ sudo yum install wget
 sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 //Везде прописываем "Y"
 
-//Устанавливаем docker:
+![image](https://github.com/user-attachments/assets/e8c1a196-d807-4160-bae3-7711afddd348)
+
+//Устанавливаем docker: (идёт долгая устоновкка так что скрина не будет, но всё дожнор нормально устоновиться)
 sudo yum install docker-ce docker-ce-cli containerd.io
 
 //Запускаем его и разрешаем автозапуск:
 sudo systemctl enable docker --now
+
+![image](https://github.com/user-attachments/assets/9e4eda0a-7f4b-4b22-88fa-5bf31b6a1cd9)
+
 
 * Установка утилиты curl (на CentOS/RHEL) для выполнения HTTP-запросов.
 
