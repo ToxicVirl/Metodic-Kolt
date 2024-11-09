@@ -54,7 +54,7 @@ e![image](https://github.com/user-attachments/assets/876cf714-e48e-4174-b2e0-c36
 
        git clone https://github.com/skl256/grafana_stack_for_docker.git
 
-       11
+11
 
        cd grafana_stack_for_docker
 
