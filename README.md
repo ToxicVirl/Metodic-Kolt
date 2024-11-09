@@ -51,9 +51,14 @@ e![image](https://github.com/user-attachments/assets/876cf714-e48e-4174-b2e0-c36
 
      docker-compose --version
 
+     ![image](https://github.com/user-attachments/assets/9443f58f-1ab1-45de-bd75-0eee1e63afe7)
+
+
 10
 
        git clone https://github.com/skl256/grafana_stack_for_docker.git
+
+       ![image](https://github.com/user-attachments/assets/8456d220-f87a-4463-85cb-cdcfb1ba8ce2)
 
 11
 
@@ -83,9 +88,13 @@ e![image](https://github.com/user-attachments/assets/876cf714-e48e-4174-b2e0-c36
 
 mv grafana.yaml docker-compose.yaml 
 
+![image](https://github.com/user-attachments/assets/b62ab356-89da-4547-a5c3-3c3724561e4f)
+
 18 
 
        sudo docker compose up -d
+
+       ![image](https://github.com/user-attachments/assets/e6cb8f9b-e5ee-4152-bc08-4a72e604b0e3)
 
 19
 
