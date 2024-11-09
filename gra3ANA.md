@@ -1,3 +1,6 @@
+Важно
+cd grafana_stack_for_docker 
+sudo docker compose up -d
 пишем в строку поиска "http://localhost:3000"
 http://localhost:3000
 User & Password GRAFANA: admin
