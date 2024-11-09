@@ -1,3 +1,4 @@
+https://github.com/seviigva/Semenova/blob/main/1/docker-compose.yaml
 1
 
        sudo yum install wget
