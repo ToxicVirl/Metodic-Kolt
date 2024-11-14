@@ -43,10 +43,6 @@
 
 .
 
-      sudo chmod +x /usr/bin/docker-compose
-
-.
-
       sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
 .
