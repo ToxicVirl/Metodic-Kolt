@@ -65,6 +65,79 @@
 
 
 
+ • переходим на сайт localhost:3000
+
+            User & Password GRAFANA: admin
+
+            Код графаны: 3000
+
+            Код прометеуса: http://prometheus:9090
+• в меню выбираем вкладку Dashboards и создаем Dashboard
+
+            ждем кнопку +Add visualization, а после "Configure a new data source"
+
+            выбираем Prometheus
+
+            Connection
+
+            http://prometheus:9090
+• Authentication
+
+            Basic authentication
+
+            User: admin
+
+            Password: admin
+
+            Нажимаем на Save & test и должно показывать зелёную галочку
+• в меню выбираем вкладку Dashboards и создаем Dashboard
+
+            ждем кнопку "Import dashboard"
+
+            Find and import dashboards for common applications at grafana.com/dashboards: 1860 //ждем кнопку Load
+
+            Select Prometheus ждем кнопку "Import"
+
+![image](https://github.com/user-attachments/assets/812c5d43-32ae-4178-ad4f-5f5efa6e4d60)
+
+
+
+Захом в connection там где мы писали http://prometheus:9090 пишем http://victoriametrics:8428 И заменяем имя из "Prometheus-2" в "Vika" нажимаем на dashboards add visualition выбираем "Vika" снизу меняем на "code" Переходим в терминал и пишем
+
+ echo -e "# TYPE OILCOINT_metric1 gauge\nOILCOINT_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus
+
+  команда отправляет бинарные данные (например, метрики в формате Prometheus) на локальный сервер, который слушает на порту 8428.
+
+ curl -G 'http://localhost:8428/api/v1/query' --data-urlencode 'query=OILCOINT_metric1'
+
+![image](https://github.com/user-attachments/assets/85ff8297-c57f-4cdb-a9e7-dd374ce0408e)
+
+Копируем переменную OILCOINT_metric1 и вставляем в query
+
+Нажимаем run
+
+![image](https://github.com/user-attachments/assets/1495962c-9f04-4797-976c-dfa69e7bee4c)
+
+Копируем переменную OILCOINT_metric1 и вставляем в code
+
+![image](https://github.com/user-attachments/assets/4e652323-b27f-4308-84f0-ca1b49be7e4d)
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
 
 
              
