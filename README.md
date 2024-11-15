@@ -42,23 +42,29 @@
 
 ![image](https://github.com/user-attachments/assets/c8df7138-fd82-4a18-9acb-9d6d1045dab4)
 
- sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+      sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+•
 
- sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data,loki-data,promtail-data}
+      sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data,loki-data,promtail-data}
+•
 
- sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+      sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+•
 
-  sudo touch /mnt/common_volume/grafana/grafana-config/grafana.ini
+       sudo touch /mnt/common_volume/grafana/grafana-config/grafana.ini
+•
 
-   sudo touch /mnt/common_volume/grafana/grafana-config/grafana.ini
+        sudo touch /mnt/common_volume/grafana/grafana-config/grafana.ini
+•
 
-    sudo cp config/* /mnt/common_volume/swarm/grafana/config/
+         sudo cp config/* /mnt/common_volume/swarm/grafana/config/,
+•
 
-     sudo mv grafana.yaml docker-compose.yaml
+          sudo mv grafana.yaml docker-compose.yaml
 
 ![image](https://github.com/user-attachments/assets/b6e4bda5-4e94-46ed-b03f-28de5749ac65)
 
- sudo docker compose up -d
+      sudo docker compose up -d
 
  ![image](https://github.com/user-attachments/assets/7e9163df-fbbf-4e3e-9f90-e87442683f9d)
 
@@ -73,6 +79,7 @@
 
             Код прометеуса: http://prometheus:9090
 • в меню выбираем вкладку Dashboards и создаем Dashboard
+
 
             ждем кнопку +Add visualization, а после "Configure a new data source"
 
@@ -98,7 +105,7 @@
 
             Select Prometheus ждем кнопку "Import"
 
-            " и получаем ничего ведб эта херня не хочет работать, пробвал кучу раз на фиг там. этот видос идеально показывает мой экспиреанс https://www.youtube.com/watch?v=Jg28HL4caQk
+и получаем ничего ведб эта херня не хочет работать, пробвал кучу раз на фиг там. этот видос идеально показывает мой экспиреанс https://www.youtube.com/watch?v=Jg28HL4caQk
 
 ![image](https://github.com/user-attachments/assets/812c5d43-32ae-4178-ad4f-5f5efa6e4d60)
 
