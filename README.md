@@ -105,9 +105,10 @@
 
             Select Prometheus ждем кнопку "Import"
 
-и получаем ничего ведб эта херня не хочет работать, пробвал кучу раз на фиг там. этот видос идеально показывает мой экспиреанс https://www.youtube.com/watch?v=Jg28HL4caQk
 
-![image](https://github.com/user-attachments/assets/812c5d43-32ae-4178-ad4f-5f5efa6e4d60)
+
+![image](https://github.com/user-attachments/assets/fd30835e-00a0-4d38-b349-5186086907f0)
+
 
 
 
